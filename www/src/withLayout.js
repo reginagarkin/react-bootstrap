@@ -10,6 +10,7 @@ export default function withLayout(Component) {
     if (
       pathname.startsWith('/getting-started') ||
       pathname.startsWith('/layout') ||
+      pathname.startsWith('/content') ||
       pathname.startsWith('/components') ||
       pathname.startsWith('/utilities')
     ) {

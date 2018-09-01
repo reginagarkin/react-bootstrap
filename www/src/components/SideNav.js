@@ -91,6 +91,8 @@ const TocSubLink = styled(TocLink)`
   padding-top: 0.25rem;
 `;
 
+const content = ['typography'];
+
 const gettingStarted = ['introduction', 'theming', 'support'];
 
 const layout = ['grid', 'media'];
@@ -194,11 +196,18 @@ class SideNav extends React.Component {
               path="/layout"
             />
             <NavSection
+              heading="Content"
+              location={location}
+              items={content}
+              path="/content"
+            />
+            <NavSection
               heading="Components"
               location={location}
               items={components}
               path="/components"
             />
+
             <NavSection
               heading="Utilities"
               location={location}

@@ -54,14 +54,20 @@ const NAV_LINKS = [
     title: 'Home',
     exact: true,
   },
+  /*
   {
     link: '/getting-started/introduction',
     title: 'Getting Started',
   },
   {
+    link: '/content/typography/',
+    title: 'Content',
+  },
+  {
     link: '/components/alerts',
     title: 'Components',
   },
+  */
 ];
 
 const propTypes = {

@@ -1,5 +1,101 @@
 // my overrides
+@import url('https://fonts.googleapis.com/css?family=Lato:400,600');
 
+$body-bg: #F1F1F1;
+$body-color: #333333;
+
+$font-family-lato: 'Lato', sans-serif;
+$font-family-base:  $font-family-lato;
+
+$line-height-base: 1.25;
+
+$festival:    #E5C24B;
+$sky:         #2DBDD4;
+$fiesta:      #489BB4;
+
+
+$blue: #2DBDD4;
+$green: #489B44;
+$yellow: #E5C24B;
+$scalar-blue: #5AA1AF;
+
+$white: #fff;
+$secondary: $white;
+
+$border-radius:               0;
+$border-radius-lg:            0;
+$border-radius-sm:            0;
+
+$input-bg: transparent;
+
+// VRNI Typography
+$dashboard-widget-title-font-size: 1rem;
+$dashboard-widget-title-font-weight: 400;
+$dashboard-widget-title-color: $body-color;
+
+$widget-title-font-size: 0.8rem;
+$widget-title-font-weight: 400;
+$widget-title-color: $body-color;
+
+$event-name-font-size: 0.9rem;
+$event-name-font-weight: 600;
+$event-name-color: #666;
+
+$scalar-text-font-size: 0.9rem;
+$scalar-text-font-weight: 600;
+$scalar-text-color: $scalar-blue;
+
+$modal-header-font-size: 1rem;
+$modal-header-font-weight: 400;
+$modal-header-color: $body-color;
+
+$settings-menu-title-font-size: 1.4rem;
+$settings-menu-title-font-weight: 400;
+$settings-menu-title-color: #333;
+
+$settings-page-title-font-size: 1.2rem;
+$settings-page-title-font-weight: 400;
+$settings-page-title-color: #666;
+
+.dashboard-widget-title {
+  font-family: $font-family-lato;
+  font-size: $dashboard-widget-title-font-size;
+  font-weight: $dashboard-widget-title-font-weight;
+  color: $dashboard-widget-title-color;
+}
+.widget-title {
+  font-size: $widget-title-font-size;
+  font-weight: $widget-title-font-weight;
+  color: $widget-title-color;
+}
+.event-name {
+  font-size: $event-name-font-size;
+  font-weight: $event-name-font-weight;
+  color: $event-name-color;
+}
+.scalar-text {
+  font-size: $scalar-text-font-size;
+  font-weight: $scalar-text-font-weight;
+  color: $scalar-text-color;
+}
+.modal-header {
+  font-size: $modal-header-font-size;
+  font-weight: $modal-header-font-weight;
+  color: $modal-header-color;
+}
+.settings-menu-title {
+  font-size: $settings-menu-title-font-size;
+  font-weight: $settings-menu-title-font-weight;
+  color: $settings-menu-title-color;
+}
+
+.settings-page-title {
+  font-size: $settings-page-title-font-size;
+  font-weight: $settings-page-title-font-weight;
+  color: $settings-page-title-color;
+}
+
+//*not mine*//
 $lighter: #373940; // light blue
 $dark: #282c34; // dark blue
 $darker: #20232a; // really dark blue
@@ -11,8 +107,7 @@ $subtleOnDark: #999;
 $divider: #ececec; // very light grey
 $note: #ffe564; // yellow
 $error: #ff6464; // yellow
-$white: #ffffff;
-$black: #000000;
+
 
 @import 'node_modules/bootstrap/scss/functions';
 @import 'node_modules/bootstrap/scss/variables';

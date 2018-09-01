@@ -131,7 +131,8 @@
     "react-prop-types": "^0.4.0",
     "react-transition-group": "^2.4.0",
     "uncontrollable": "^6.0.0",
-    "warning": "^4.0.1"
+    "warning": "^4.0.1",
+    "yarn": "^1.9.4"
   },
   "release-script": {
     "bowerRepo": "git@github.com:react-bootstrap/react-bootstrap-bower.git",
